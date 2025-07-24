@@ -1,9 +1,13 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
 }
 
 img{
     width: 100%;
+    border-radius: 5px;
+}
+body{
+    background-color: rgb(221, 218, 173);
 }
 
 .hero-image{
@@ -30,8 +34,29 @@ img{
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    background-color: rgb(245, 242, 203);
 }
 
 .info{
-    font-size: 1.2em;
+    font-size: 1.25em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(0, 0, rgb(146, 119, 84));
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmok;
+    background-color: rgb(155, 134, 88);
 }
